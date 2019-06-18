@@ -1,0 +1,29 @@
+{
+  "name": "DataVisualization",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native-windows/Scripts/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "https://github.com/microsoft/react-native/archive/v0.59.0-microsoft.2.tar.gz",
+    "react-native-windows": "^0.59.0-vnext.8",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3",
+    "rnpm-plugin-windows": "^0.2.11"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
